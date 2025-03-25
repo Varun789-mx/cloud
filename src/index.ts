@@ -7,7 +7,7 @@ export default {
 
 		if (request.method === "GET") { 
 			return Response.json({
-				message:"We got a Get reqest"
+				message:"Here we got"
 			});
 		}
 		else { 
