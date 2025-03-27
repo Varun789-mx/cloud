@@ -1,0 +1,9 @@
+  function Create_url() {
+           let url:string = "";
+                    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+                    for(let i = 0;i<8;i++) {
+                             url += characters.charAt(Math.floor(Math.random() * characters.length));
+                    }
+                    console.log(url);
+            }   
+Create_url()
